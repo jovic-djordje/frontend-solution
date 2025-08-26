@@ -61,6 +61,7 @@
 .home-section-text {
   font-family: "Open Sans";
   line-height: 1.7;
+  font-size: 18px;
 }
 
 .home-section-img {
@@ -83,6 +84,66 @@
 
 /*TRAINING HUB SECTION */
 
+.tg-hub-section {
+  background-color: #6a89cc;
+}
+
+.tg-hub-section-holder {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 80px 0px;
+}
+
+.tg-hub-title {
+  font-family: "Calistoga";
+  color: #fff;
+  font-size: 60px;
+}
+
+.tg-hub-cart-holder {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.tg-hub-cart {
+  max-width: 380px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.tg-hub-img {
+  width: 100%;
+}
+
+.tg-cart-title {
+  font-family: "Calistoga";
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-indent: 18px;
+}
+
+.tg-cart-text {
+  font-family: "Open Sans";
+  color: #fff;
+  font-weight: 600;
+  text-indent: 18px;
+  font-size: 18px;
+}
+
 @media screen and (max-width: 1200px) {
   .home-section-holder {
     width: 95%;
@@ -94,6 +155,10 @@
 
   .home-section-title {
     font-size: 75px;
+  }
+
+  .tg-hub-section-holder {
+    width: 95%;
   }
 }
 
@@ -113,6 +178,18 @@
   .home-section-text {
     font-size: 15px;
   }
+
+  .tg-hub-title {
+    font-size: 50px;
+  }
+
+  .tg-cart-title {
+    font-size: 16px;
+  }
+
+  .tg-cart-text {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -129,10 +206,26 @@
   .home-section-img {
     max-width: 800px;
   }
+
+  .tg-hub-cart {
+    max-width: 800px;
+  }
+
+  .tg-cart-text {
+    font-size: 15px;
+  }
+
+  .tg-cart-title {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 520px) {
   .home-section-title {
     font-size: 50px;
+  }
+
+  .tg-hub-title {
+    font-size: 45px;
   }
 }
