@@ -82,7 +82,7 @@
   cursor: pointer;
 }
 
-/*TRAINING HUB SECTION */
+/* TRAINING HUB SECTION */
 
 .tg-hub-section {
   background-color: #6a89cc;
@@ -144,6 +144,75 @@
   font-size: 18px;
 }
 
+/* TRAINING JOURNEY SECTION */
+
+.tg-journey {
+  background-color: #b8e994;
+}
+
+.tg-journey-holder {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0px;
+}
+
+.tg-journey-title-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-left: -52px;
+}
+
+.icon-holder {
+  background-color: #6a89cc;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+}
+
+.tg-journey-title {
+  font-family: "Calistoga";
+  max-width: 600px;
+  width: 100%;
+  font-size: 80px;
+}
+
+.tg-journey-carts-holder {
+  max-width: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.tg-journey-cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.tg-journey-cart-title {
+  font-family: "Calistoga";
+  font-size: 26px;
+}
+
+.tg-journey-cart-text {
+  font-size: 18px;
+}
+
 @media screen and (max-width: 1200px) {
   .home-section-holder {
     width: 95%;
@@ -159,6 +228,15 @@
 
   .tg-hub-section-holder {
     width: 95%;
+  }
+
+  .tg-journey-holder {
+    width: 95%;
+  }
+
+  .tg-journey-title {
+    font-size: 70px;
+    max-width: 550px;
   }
 }
 
@@ -190,6 +268,23 @@
   .tg-cart-text {
     font-size: 16px;
   }
+
+  .tg-journey-title {
+    font-size: 60px;
+    max-width: 470px;
+  }
+
+  .tg-journey-carts-holder {
+    max-width: 280px;
+  }
+
+  .tg-journey-cart-title {
+    font-size: 22px;
+  }
+
+  .tg-journey-cart-text {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -218,6 +313,30 @@
   .tg-cart-title {
     font-size: 15px;
   }
+
+  .tg-journey-holder {
+    flex-direction: column;
+    padding: 40px 0px;
+    gap: 50px;
+  }
+
+  .tg-journey-title {
+    font-size: 50px;
+    align-self: flex-start;
+  }
+
+  .tg-journey-carts-holder {
+    max-width: 800px;
+  }
+
+  .tg-journey-title-holder {
+    margin-left: 0;
+  }
+
+  .tg-journey-cart-text {
+    margin-left: 52px;
+    max-width: 450px;
+  }
 }
 
 @media screen and (max-width: 520px) {
@@ -226,6 +345,10 @@
   }
 
   .tg-hub-title {
+    font-size: 45px;
+  }
+
+  .tg-journey-title {
     font-size: 45px;
   }
 }
