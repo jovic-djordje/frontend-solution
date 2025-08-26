@@ -1,3 +1,4 @@
+import ContactSection from "../components/ContactSection";
 import Faq from "../components/Faq";
 import HomeSection from "../components/HomeSection";
 import TrainingHub from "../components/TrainingHub";
@@ -12,6 +13,7 @@ const Home = () => {
       <TrainingJourney />
       <TrainingResource />
       <Faq />
+      <ContactSection />
     </div>
   );
 };

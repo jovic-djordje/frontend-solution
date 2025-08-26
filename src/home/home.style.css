@@ -294,7 +294,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 50px;
+  gap: 40px;
 }
 
 .faq-title {
@@ -350,6 +350,67 @@
   line-height: 1.7;
 }
 
+/* CONTACT SECTION*/
+.contact-section {
+  background-color: #6a89cc;
+}
+
+.contact-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.contact-text-holder {
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 70px;
+}
+
+.contact-title {
+  font-family: "Calistoga";
+  color: #fff;
+  font-size: 65px;
+  max-width: 480px;
+  width: 100%;
+}
+
+.contact-cta-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.contact-btn {
+  max-width: 350px;
+  width: 100%;
+  padding: 10px 0px;
+  border: none;
+  border-radius: 20px;
+  font-family: "Calistoga";
+  font-size: 22px;
+}
+
+.contact-text {
+  font-family: "Open Sans";
+  color: #fff;
+  font-size: 26px;
+  max-width: 500px;
+  width: 100%;
+  font-weight: 600;
+}
+
+.cta-logo-holder {
+  color: #fff;
+}
+
 @media screen and (max-width: 1200px) {
   .home-section-holder {
     width: 95%;
@@ -386,6 +447,15 @@
 
   .faq-holder {
     width: 95%;
+  }
+
+  .contact-text-holder {
+    width: 95%;
+  }
+
+  .contact-img {
+    max-width: 500px;
+    width: 100%;
   }
 }
 
@@ -457,6 +527,23 @@
 
   .faq-cart-text {
     font-size: 15px;
+  }
+
+  .contact-title {
+    font-size: 50px;
+  }
+
+  .contact-text {
+    font-size: 18px;
+  }
+
+  .contact-btn {
+    max-width: 300px;
+  }
+
+  .contact-img {
+    max-width: 450px;
+    width: 100%;
   }
 }
 
@@ -550,6 +637,25 @@
     gap: 50px;
     height: auto;
   }
+
+  .contact-holder {
+    flex-direction: column-reverse;
+    gap: 50px;
+    padding-top: 40px;
+  }
+
+  .contact-img {
+    max-width: 800px;
+    align-self: flex-start;
+  }
+
+  .contact-text-holder {
+    gap: 50px;
+  }
+
+  .contact-text {
+    max-width: 350px;
+  }
 }
 
 @media screen and (max-width: 520px) {
@@ -570,6 +676,10 @@
   }
 
   .faq-title {
+    font-size: 45px;
+  }
+
+  .contact-title {
     font-size: 45px;
   }
 }
