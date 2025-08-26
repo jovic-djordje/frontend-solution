@@ -8,6 +8,7 @@ import moduleSixImg from "./module-6.png";
 import resourceOneImg from "./res-1.png";
 import resourceTwoImg from "./res-2.png";
 import resourceThreeImg from "./res-3.png";
+import contactImg from "./contact-img.png";
 
 const YoungWmnReading = ({ className }) => {
   return <img src={youngWmnReading} alt="illustration" className={className} />;
@@ -51,6 +52,10 @@ const ResourceThreeImg = ({ className }) => {
   );
 };
 
+const ContactImg = ({ className }) => {
+  return <img src={contactImg} alt="illustartion" className={className} />;
+};
+
 export {
   YoungWmnReading,
   ModuleOneImg,
@@ -62,4 +67,5 @@ export {
   ResourceOneImg,
   ResourceTwoImg,
   ResourceThreeImg,
+  ContactImg,
 };
